@@ -1,0 +1,147 @@
+.bg2 {
+  position: absolute;
+  width: 1470px;
+  height: 1004px;
+  left: -328px;
+  /* left: -428px; */
+  top: -68px;
+
+  background: url("../images/bg2.png");
+  /* filter: blur(5px); */
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  z-index: -1;
+}
+
+.elipse8 {
+  height: 1500px;
+  width: 1500px;
+  border-radius: 50%;
+  border: 70px solid #00000005;
+  position: absolute;
+  z-index: -1;
+}
+.left8 {
+  background-color: white;
+  left: -1234px;
+  top: -453px;
+}
+.right8 {
+  left: 630px;
+  top: -210px;
+}
+
+.elipse7 {
+  height: 1200px;
+  width: 1200px;
+  border-radius: 50%;
+  border: 70px solid #00000005;
+  position: absolute;
+  z-index: -1;
+}
+.left7 {
+  left: -1084px;
+  top: -303px;
+}
+.right7 {
+  left: 780px;
+  top: -60px;
+}
+
+.elipse6 {
+  height: 900px;
+  width: 900px;
+  border-radius: 50%;
+  border: 70px solid #00000005;
+  position: absolute;
+  z-index: -1;
+}
+.left6 {
+  left: -934px;
+  top: -153px;
+}
+.right6 {
+  left: 930px;
+  top: 90px;
+}
+
+.elipse5 {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  border: 70px solid #00000005;
+  position: absolute;
+  z-index: -1;
+}
+.left5 {
+  left: -784px;
+  top: -3px;
+}
+.right5 {
+  left: 1080px;
+  top: 240px;
+}
+
+.mask-group {
+  position: absolute;
+  width: 1558.74px;
+  height: 1983.26px;
+  left: -174.73px;
+  top: -705.91px;
+}
+.rectangle52 {
+  position: absolute;
+  width: 1942.52px;
+  height: 813.91px;
+  left: -277px;
+  top: 0px;
+  background: #ffffff;
+  opacity: 0.83;
+  filter: blur(260px);
+  transform: rotate(-55.82deg);
+}
+.rectangle55 {
+  position: absolute;
+  width: 1942.52px;
+  height: 951.87px;
+  left: -565px;
+  top: 0px;
+
+  background: #ffffff;
+  opacity: 0.2;
+  /* filter: blur(260px); */
+  transform: rotate(-58.22deg);
+}
+.rectangle56 {
+  position: absolute;
+  width: 336px;
+  height: 282px;
+  right: 38px;
+  top: 5px;
+
+  background: #ffffff;
+  opacity: 0.8;
+  filter: blur(100px);
+  transform: rotate(-90deg);
+}
+.mask-rectangle56 {
+  position: absolute;
+  width: 1942.52px;
+  height: 630.27px;
+  left: -174.73px;
+  top: 945.44px;
+
+  background: #ffffff;
+  opacity: 0.9;
+  filter: blur(70px);
+  transform: rotate(-58.22deg);
+}
+.rectangle60 {
+  position: absolute;
+  width: 428.41px;
+  height: 893.68px;
+  right: 146px;
+  top: 45px;
+  background: #ffffff;
+  filter: blur(140px);
+  transform: rotate(-173.35deg);
+}
