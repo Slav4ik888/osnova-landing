@@ -9,7 +9,52 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  height: 320px;
+  min-height: 320px;
 }
 
 .section2-content-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.section2-content-img {
+  width: 80%;
+}
+
+.sec2-text2 {
+  position: absolute;
+  right: 40px;
+  top: -10px;
+  width: 50%;
+}
+
+.sec2-text3 {
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  width: 50%;
+}
+
+.sec2-text-box {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gilroy-Regular";
+  color: #272727;
+  height: 100px;
+  margin-top: 14px;
+}
+.sec2-bold {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sec2-text-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
 }
