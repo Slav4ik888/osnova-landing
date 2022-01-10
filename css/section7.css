@@ -1,5 +1,6 @@
 .section7 {
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin-top: 54px;
 }
@@ -41,17 +42,28 @@
   border-radius: 30px;
   transform: rotate(165deg);
 }
-.s7-triangle {
-  display: block;
-  height: 20px;
-  width: 20px;
+.s7-bg-triangle {
   position: absolute;
-  top: -20px;
-  right: -40px;
-  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-  transform: rotate(-45deg);
-  border-radius: 0 0 0 0.25em;
+  width: 160px;
+  height: 160px;
+  z-index: -1;
 }
+.s7-tr1 {
+  bottom: -48px;
+  left: -58px;
+  transform: rotate(5deg);
+}
+.s7-tr2 {
+  bottom: 10px;
+  left: -33px;
+  transform: rotate(169deg);
+}
+.s7-tr3 {
+  bottom: -50px;
+  left: 126px;
+  transform: rotate(24deg);
+}
+
 /* HEADER */
 .site-page-header {
   display: flex;
