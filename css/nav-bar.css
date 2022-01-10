@@ -84,8 +84,8 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.2s;
 }
 .nav-button:hover {
   background-color: #5bbb2f;
+  transition: background-color 0.4s;
 }

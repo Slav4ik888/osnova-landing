@@ -44,6 +44,7 @@
 }
 
 .header-title {
+  font-family: "Gilroy-Light";
   margin-top: 20px;
   font-size: 3.2rem;
   /* font-size: 50px; */
@@ -51,6 +52,7 @@
   color: #272727;
 }
 .header-title strong {
+  font-family: "Gilroy-Medium";
   font-weight: 600;
 }
 

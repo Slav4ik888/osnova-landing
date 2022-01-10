@@ -1,0 +1,145 @@
+.section6 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 530px;
+  margin-top: 200px;
+}
+
+.sec6-left {
+  width: 50%;
+}
+
+.sec6-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 120px;
+  width: 470px;
+  height: 290px;
+  font-family: "Gilroy-Regular";
+  color: #272727;
+}
+
+.sec6-left-label {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 130%;
+}
+.sec6-left-label > .bold {
+  font-family: "Gilroy-Medium";
+  font-weight: 900;
+}
+.sec6-left-text {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.sec6-left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #3fa012;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+.sec6-left-btn:hover {
+  background-color: #5bbb2f;
+  transition: background-color 0.4s;
+}
+
+.sec6-right {
+  position: relative;
+  width: 50%;
+}
+.sec6-right-box {
+}
+.sec6-right-img {
+  position: absolute;
+  top: -30px;
+  right: 160px;
+  z-index: 50;
+}
+.sec6-img-par1 {
+  position: absolute;
+  top: -60px;
+  left: 150px;
+}
+.sec6-img-par2 {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+}
+
+.sec6-back {
+  position: absolute;
+  right: 112px;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* .sec6-el0 {
+  position: absolute;
+  width: 1052px;
+  height: 1052px;
+  top: -340px;
+  right: -252px;
+  border: 100px solid #fff;
+  border-radius: 50%;
+  z-index: -10;
+  border: 45px solid rgba(0, 0, 0, 0.02);
+} */
+.sec6-el1 {
+  position: absolute;
+  width: 872px;
+  height: 872px;
+  top: -350px;
+  right: -176px;
+  border-radius: 50%;
+  z-index: -9;
+  border: 45px solid rgba(0, 0, 0, 0.02);
+}
+.sec6-el2 {
+  position: absolute;
+  width: 692px;
+  height: 692px;
+  top: -260px;
+  right: -86px;
+  border-radius: 50%;
+  z-index: -9;
+  border: 45px solid rgba(0, 0, 0, 0.02);
+}
+
+.sec6-el3 {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+  top: -170px;
+  right: 4px;
+  border-radius: 50%;
+  z-index: -9;
+  border: 45px solid rgba(0, 0, 0, 0.02);
+}
+.sec6-el4 {
+  position: absolute;
+  width: 332px;
+  height: 332px;
+  top: -80px;
+  right: 94px;
+  border-radius: 50%;
+  z-index: -9;
+  border: 45px solid rgba(0, 0, 0, 0.02);
+}

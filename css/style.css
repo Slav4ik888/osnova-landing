@@ -48,6 +48,26 @@ h1 {
 }
 
 /* ----------------- */
+/*        FLEX       */
+/* ----------------- */
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+/* ----------------- */
 /*       TITLE       */
 /* ----------------- */
 

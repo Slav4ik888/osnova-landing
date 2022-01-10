@@ -1,0 +1,98 @@
+/* ПРЯТАТЬ ЭЛЕМЕНТЫ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* CHECK */
+.chap-check {
+  cursor: pointer;
+  padding-left: 15px;
+  width: 24px;
+  height: 24px;
+  margin-right: 23px;
+  margin-top: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #bdcbd7;
+}
+
+.chap-check__input {
+  position: absolute;
+  /* 1. Вариант - Удаляем пробел между скрытым checkbox и текстом */
+  /* -webkit-appearance: none; /* Скрываем стандартный checkbox */
+  /* -moz-appearance: none;
+  appearance: none; */
+
+  /* 2. Вариант
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0); */
+}
+
+.chap-check__box {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  /* box-shadow: 0 0 0 0.1em #4a90e2; */
+  margin-left: -1em;
+  margin-top: -1px;
+  border-radius: 3px;
+  /* background-color: #fff; */
+}
+
+/* .check__box {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='3' y='3' width='14' height='14' fill='%23fff' stroke='%234a90e2' stroke-width='2' rx='2'/%3E%3C/svg%3E");
+  margin-left: -1.2em;
+} */
+
+/* Checked */
+
+.chap-check__input:checked + .chap-check__box {
+  background-color: #3fa012;
+  background-image: url(../images/checkmark.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+/* .check__input:checked + .check__box {
+  background-image: url(images/on.svg);
+} */
+
+/* Focused */
+
+/* .chap-check__input:focus + .chap-check__box {
+  box-shadow: 0 0 0 0.1em #3fa012, 0 0 0 0.2em #7ed321;
+} */
+
+/* .check__input:focus + .check__box {
+  background-image: url(images/off-focused.svg);
+}
+.check__input:checked:focus + .check__box {
+  background-image: url(images/on-focused.svg);
+} */
+
+/* Disabled */
+
+.chap-check__input:disabled + .chap-check__box {
+  box-shadow: 0 0 0 0.1em #bdcbd7;
+}
+.chap-check__input:checked:disabled + .chap-check__box {
+  background-color: #bdcbd7;
+}
+/* .check__input:disabled + .check__box {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='3' y='3' width='14' height='14' fill='%23fff' stroke='%239b9b9b' stroke-width='2' rx='2'/%3E%3C/svg%3E");
+}
+.check__input:checked:disabled + .check__box {
+  background-image: url(images/on-disabled.svg);
+} */
