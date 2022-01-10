@@ -1,0 +1,94 @@
+.section8 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+  padding-top: 36px;
+}
+.s8-rectangle {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #f3f7f9;
+  transform: rotate(-1.5deg);
+  overflow-x: clip;
+  z-index: -1;
+}
+.colorEDF3F5 {
+  color: #edf3f5;
+}
+.s8-content-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 68px;
+}
+.s8-content-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  max-width: 185px;
+  margin: 0 70px;
+}
+/* IMAGE ROW */
+.s8-img-box {
+  position: relative;
+  height: 185px;
+}
+.s8-circle {
+  width: 164px;
+  height: 164px;
+  background-color: #bfe1af;
+  border-radius: 50%;
+}
+.s8-img-calendar1 {
+  position: absolute;
+  top: 0px;
+  right: -17px;
+}
+.s8-img-papers {
+  position: absolute;
+  top: 30px;
+  right: -17px;
+}
+.s8-img-folder {
+  position: absolute;
+  top: 36px;
+  right: -14px;
+}
+
+/* Green circle */
+.s8-small-circle {
+  position: absolute;
+  top: 114px;
+  left: 8px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3fa012;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gilroy-Regular";
+  font-size: 18px;
+  line-height: 130%;
+  padding-top: 3px;
+}
+
+/* TEXT */
+.s8-text-box {
+  font-family: "Gilroy-Light";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #272727;
+  margin-top: 20px;
+}
+.s8-label {
+  font-family: "Gilroy-Medium";
+  font-weight: 600;
+}
