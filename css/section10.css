@@ -78,4 +78,11 @@
   height: 200px;
   background: #404040;
   border-radius: 20px;
+  transition: all 0.7s;
+}
+
+.s10-slider-item:hover {
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  transform: translateY(-3px);
 }

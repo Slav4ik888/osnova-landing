@@ -186,7 +186,7 @@
 }
 .site-page-body .content .chapter:hover {
   -webkit-transform: translateY(-3px);
-  -ms-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 .site-page-body .content .c1 {
