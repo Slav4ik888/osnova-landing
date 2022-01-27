@@ -1,0 +1,139 @@
+.section12 {
+  width: 100%;
+  height: 670px;
+  margin-top: 100px;
+  background-color: #303030;
+}
+.sec12-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1230px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.sec12-left {
+  width: 40%;
+}
+
+.sec12-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 120px; */
+  width: 470px;
+  height: 290px;
+  font-family: "Gilroy-Regular";
+  color: #ffffff;
+}
+
+.sec12-left-label {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 130%;
+}
+.sec12-left-label > .bold {
+  font-family: "Gilroy-Medium";
+  font-weight: 900;
+}
+.sec12-left-text {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.sec12-left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #3fa012;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+.sec12-left-btn:hover {
+  background-color: #5bbb2f;
+  transition: background-color 0.4s;
+}
+
+.sec12-right {
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+.sec12-right-box {
+}
+.s12-img-phone {
+  position: absolute;
+  left: calc(50% - 125px);
+  bottom: 100px;
+  z-index: 50;
+}
+.s12-img-par1 {
+  position: absolute;
+  top: 20%;
+  left: 100px;
+}
+.s12-img-par2 {
+  position: absolute;
+  bottom: 20%;
+  right: 0px;
+}
+
+.s12-img-back {
+  position: absolute;
+  right: calc(50% - 150px);
+  bottom: 0;
+  z-index: 10;
+}
+
+.s12-el1 {
+  position: absolute;
+  width: 872px;
+  height: 872px;
+  top: calc(50% - 436px);
+  left: calc(50% - 436px);
+  border-radius: 50%;
+  border: 45px solid rgba(255, 255, 255, 0.02);
+}
+.s12-el2 {
+  position: absolute;
+  width: 692px;
+  height: 692px;
+  top: calc(50% - 346px);
+  left: calc(50% - 346px);
+  border-radius: 50%;
+  border: 45px solid rgba(255, 255, 255, 0.02);
+}
+
+.s12-el3 {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+  top: calc(50% - 256px);
+  left: calc(50% - 256px);
+  border-radius: 50%;
+  border: 45px solid rgba(255, 255, 255, 0.02);
+}
+.s12-el4 {
+  position: absolute;
+  width: 332px;
+  height: 332px;
+  top: calc(50% - 166px);
+  left: calc(50% - 166px);
+  border-radius: 50%;
+  border: 45px solid rgba(255, 255, 255, 0.02);
+}

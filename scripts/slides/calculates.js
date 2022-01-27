@@ -1,6 +1,4 @@
 import { MAIN_SLIDE_WITH_SPACE_WIDTH, SLIDE_LENGTH, SPACE_BETWEEN, MAX_WIDTH, CLIENT_WIDTH, slidesCount, cl } from './config.js';
-console.log('MAIN_SLIDE_WITH_SPACE_WIDTH: ', MAIN_SLIDE_WITH_SPACE_WIDTH);
-
 
 export const getShiftLeft = () => {
 
