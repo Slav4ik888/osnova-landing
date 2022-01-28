@@ -46,6 +46,9 @@ h1 {
 .grow {
   flex: 1;
 }
+.to-course {
+  text-decoration: none;
+}
 
 /* ----------------- */
 /*        FLEX       */

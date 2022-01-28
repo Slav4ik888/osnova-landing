@@ -1,5 +1,7 @@
 
+export const getId       = (idx) => idx + 1;
 export const getAnswerId = (id) => `answer-${id}`;
+export const getCloseId  = (id) => `close-${id}`;
 
 /**
  * Возвращает есть ли класс среди классов

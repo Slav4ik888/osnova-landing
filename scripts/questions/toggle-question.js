@@ -1,31 +1,34 @@
-import { getAnswerId, isClass, calcStep } from './utils.js';
+import { getNode } from '../utils/display/get-node.js';
+import { getAnswerId, getCloseId, isClass, calcStep } from './utils.js';
 
-const delay  = 2;
+const delay  = 8;
 
 
 export default function toggleQuestion(e) {
-  const id = e.target.closest(`.qa-question-box`)?.id;
-  console.log(`id: `, id);
-  const $answer = document.getElementById(getAnswerId(id));
-  console.log('$answer.classList.value: ', $answer.classList.value);
+  const
+    id       = e.target.closest(`.qa-question-box`)?.id,
+    $answer  = getNode(`#${getAnswerId(id)}`),
+    $qaClose = getNode(`#${getCloseId(id)}`);
+
 
   if (isClass($answer, `collapse`)) {
     
-    
-    $answer.classList.remove(`collapse`);
-    const height = $answer.clientHeight;
     $answer.style.overflow = `hidden`;
+    $answer.classList.remove(`collapse`);
+    $qaClose.classList.add(`open`);
 
-    const step    = calcStep(height);
+    const
+      height = $answer.clientHeight,
+      step   = calcStep(height);
+      
     let remainder = step;
 
-    let timerId = setTimeout(function request() {
-
+    let timerId = setTimeout(function expand() {
       remainder += step;
 
       if (remainder < height) {
         $answer.style.height = remainder + `px`;
-        timerId = setTimeout(request, delay);
+        timerId = setTimeout(expand, delay);
       }
       else {
         $answer.style.height = `max-content`;
@@ -35,18 +38,20 @@ export default function toggleQuestion(e) {
   }
   else {
     $answer.style.overflow = `hidden`;
-    const height  = $answer.clientHeight;
-    const step    = calcStep(height);
+    $qaClose.classList.remove(`open`);
+
+    const
+      height = $answer.clientHeight,
+      step   = calcStep(height);
 
     let remainder = height - step;
       
-    let timerId = setTimeout(function request() {
-        
+    let timerId = setTimeout(function collapse() {
       remainder -= step;
 
       if (remainder > 0) {
         $answer.style.height = remainder + `px`;
-        timerId = setTimeout(request, delay);
+        timerId = setTimeout(collapse, delay);
       }
       else {
         $answer.classList.add(`collapse`);
