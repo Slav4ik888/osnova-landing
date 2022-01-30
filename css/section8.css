@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 650px;
   padding-top: 36px;
@@ -9,8 +10,9 @@
 .s8-rectangle {
   position: absolute;
   top: 0px;
-  width: 100%;
+  width: 140%;
   height: 100%;
+  margin-left: -50px;
   background: #f3f7f9;
   transform: rotate(-1.5deg);
   overflow-x: clip;
@@ -23,6 +25,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  max-width: 950px;
   margin-top: 68px;
 }
 .s8-content-item {
@@ -91,4 +94,10 @@
 .s8-label {
   font-family: "Gilroy-Medium";
   font-weight: 600;
+}
+
+@media screen and (max-width: 860px) {
+  .s8-content-row {
+    padding: 0 30px;
+  }
 }

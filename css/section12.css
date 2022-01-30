@@ -1,54 +1,62 @@
 .section12 {
+  position: relative;
   width: 100%;
+  max-width: 1230px;
   height: 670px;
   margin-top: 100px;
   background-color: #303030;
 }
-.sec12-container {
-  position: relative;
+.s12-bg {
+  position: absolute;
+  width: 140%;
+  height: 100%;
+  background: #303030;
+  z-index: -1;
+  margin-left: -40px;
+}
+.s12-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 1230px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
 }
 
-.sec12-left {
+.s12-left {
   width: 40%;
 }
 
-.sec12-left-box {
+.s12-left-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-left: 120px; */
-  width: 470px;
-  height: 290px;
+  margin-left: 20px;
   font-family: "Gilroy-Regular";
   color: #ffffff;
 }
 
-.sec12-left-label {
+.s12-left-label {
   font-family: "Gilroy-Light";
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 130%;
+  margin-bottom: 30px;
 }
-.sec12-left-label > .bold {
+.s12-left-label > .bold {
   font-family: "Gilroy-Medium";
   font-weight: 900;
 }
-.sec12-left-text {
+.s12-left-text {
   font-family: "Gilroy-Light";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
+  margin-bottom: 30px;
 }
 
-.sec12-left-btn {
+.s12-left-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,17 +72,17 @@
   opacity: 1;
   cursor: pointer;
 }
-.sec12-left-btn:hover {
+.s12-left-btn:hover {
   background-color: #5bbb2f;
   transition: background-color 0.4s;
 }
 
-.sec12-right {
+.s12-right {
   position: relative;
   width: 60%;
   height: 100%;
 }
-.sec12-right-box {
+.s12-right-box {
 }
 .s12-img-phone {
   position: absolute;
@@ -136,4 +144,29 @@
   left: calc(50% - 166px);
   border-radius: 50%;
   border: 45px solid rgba(255, 255, 255, 0.02);
+}
+
+@media screen and (max-width: 1100px) {
+  .s12-left-label {
+    font-size: 45px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .s12-left-label {
+    font-size: 42px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .s12-left-label {
+    font-size: 38px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .s12-left-label {
+    font-size: 34px;
+    line-height: 110%;
+  }
 }

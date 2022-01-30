@@ -7,7 +7,7 @@
   margin-top: 154px;
 }
 
-.sec5-green-box {
+.s5-green-box {
   position: absolute;
   top: 6px;
   width: 90%;
@@ -16,7 +16,7 @@
   border-radius: 40px;
 }
 
-.sec5-black-box {
+.s5-black-box {
   position: absolute;
   top: 0px;
   width: 100%;
@@ -37,11 +37,13 @@
   bottom: 100%;
   left: 0;
   border-top-left-radius: 40px;
-  border-left: 1180px solid #303030;
+  border-left-width: 1180px;
+  border-left-style: solid;
+  border-left-color: #303030;
   border-top: 43px solid transparent;
 }
 
-.sec5-title {
+.s5-title {
   font-family: "Gilroy-Regular";
   font-style: normal;
   font-weight: normal;
@@ -53,35 +55,104 @@
   margin-top: 80px;
 }
 
-.sec5-box {
+.s5-box {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
+  margin: 0 40px;
   z-index: 100;
 }
 
-.sec5-box-row {
+.s5-box-row {
   display: flex;
   width: 100%;
   margin-top: 70px;
 }
 
-.sec5-box-item {
+.s5-box-item {
   display: flex;
   justify-content: center;
   width: 33%;
   margin: 0 30px;
 }
 
-.sec5-box-img {
+.s5-box-img {
+  width: 70%;
+  max-width: 130px;
 }
 
-.sec5-row-text {
+.s5-row-text {
   margin-top: 30px;
 }
-.sec5-box-text {
+.s5-box-text {
+  width: 100%;
   font-size: 14px;
   line-height: 130%;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1230px) {
+  .s5-black-box {
+    width: calc(100% - 40px);
+    min-width: 0;
+  }
+  .s5-box-cnt {
+    height: 450px;
+  }
+  .s5-box-cnt::after {
+    border-left-width: 1100px;
+  }
+  .s5-box {
+    width: 100%;
+  }
+  .s5-box-text {
+    width: 80%;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .s5-box-cnt::after {
+    border-left-width: 1000px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .s5-box-cnt::after {
+    border-left-width: 900px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .s5-box-cnt::after {
+    border-left-width: 800px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .s5-box-cnt::after {
+    border-left-width: 700px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .s5-box-cnt::after {
+    border-left-width: 600px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .s5-box-cnt::after {
+    border-left-width: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .s5-box-cnt::after {
+    border-left-width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .s5-box-cnt::after {
+    border-left-width: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .s5-box-cnt::after {
+    border-left-width: 250px;
+  }
 }
