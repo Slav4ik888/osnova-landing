@@ -1,9 +1,8 @@
 .section12 {
   position: relative;
   width: 100%;
-  max-width: 1230px;
   height: 670px;
-  margin-top: 100px;
+  margin: 100px auto 0 auto;
   background-color: #303030;
 }
 .s12-bg {
@@ -18,12 +17,14 @@
   display: flex;
   align-items: center;
   width: 100%;
+  max-width: 1230px;
   height: 100%;
   margin: 0 auto;
+  padding-left: 60px;
 }
 
 .s12-left {
-  width: 40%;
+  width: 50%;
 }
 
 .s12-left-box {
@@ -79,7 +80,7 @@
 
 .s12-right {
   position: relative;
-  width: 60%;
+  width: 50%;
   height: 100%;
 }
 .s12-right-box {
