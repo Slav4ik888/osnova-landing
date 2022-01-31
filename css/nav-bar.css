@@ -89,3 +89,23 @@
   background-color: #5bbb2f;
   transition: background-color 0.4s;
 }
+
+@media screen and (max-width: 1050px) {
+  .nav-tagline {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .nav-contact-label {
+    display: none;
+  }
+  .nav-contact-item {
+    align-items: center;
+  }
+  .nav-contact-content {
+    align-items: center;
+  }
+  .nav-contact-icon {
+    margin-top: 0;
+  }
+}
