@@ -6,24 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/bg1.css">
-  <link rel="stylesheet" href="css/checkbox.css">
-  <link rel="stylesheet" href="css/nav-bar.css">
-  <link rel="stylesheet" href="css/section2.css">
-  <link rel="stylesheet" href="css/section3.css">
-  <link rel="stylesheet" href="css/section4.css">
-  <link rel="stylesheet" href="css/section5.css">
-  <link rel="stylesheet" href="css/section6.css">
-  <link rel="stylesheet" href="css/section7.css">
-  <link rel="stylesheet" href="css/section8.css">
-  <link rel="stylesheet" href="css/section9.css">
-  <link rel="stylesheet" href="css/section10.css">
-  <link rel="stylesheet" href="css/section11.css">
-  <link rel="stylesheet" href="css/section12.css">
-  <link rel="stylesheet" href="css/section13.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
+  <link rel="stylesheet" href="css/index.min.css">
   <title>Специалист в составлении должностных папок - онлайн курс, с проверкой практических заданий!</title>
   <script src="scripts/app.js" type="module" defer></script>
   <!-- Yandex.Metrika counter -->
@@ -47,87 +31,99 @@
   <!-- /Yandex.Metrika counter -->
 </head>
 <body class="wrap">
-  <header class="header">
-    <div class="container">
-      <!-- <div class="bg2"></div>
+  <header class="container header">
+    <div class="header__logo logo">
+      <img class="logo__image" src="images/logo_small.png" width="186" alt="Логотип учебного центра Основа">
+      <div class="logo__tagline">Знания на вес золота для вашего бизнеса</div>
+    </div>
+    <!-- <div class="grow"></div> -->
 
-      <div class="elipse8 left8"></div>
-      <div class="elipse7 left7"></div>
-      <div class="elipse6 left6"></div>
-      <div class="elipse5 left5"></div>
+    <div class="header__menu menu">
+      <button type="button" class="menu__button" aria-expanded="false" aria-controls="menu__list">
+        <svg class="menu__icon" width="32" height="32" aria-hidden="true">
+          <use class="menu__icon-menu" href="images/icons/sprites.svg#menu"></use>
+          <use class="menu__icon-cross" href="images/icons/sprites.svg#cross"></use>
+        </svg>
+      </button>
 
-      <div class="elipse8 right8"></div>
-      <div class="elipse7 right7"></div>
-      <div class="elipse6 right6"></div>
-      <div class="elipse5 right5"></div>
-
-      <div class="rectangle55"></div>
-      <div class="rectangle56"></div>
-
-      <div class="mask-group">
-        <div class="mask-rectangle56"></div>
-      </div>
-      
-      <div class="rectangle52"></div>
-      <div class="rectangle60"></div> -->
-
-      <div class="nav-bar">
-        <img src="images/logo_small.png" alt="Логотип учебного центра Основа" class="nav-logo">
-        <div class="nav-tagline">Знания на вес золота для вашего бизнеса</div>
-        <div class="grow"></div>
-        <div class="nav-contact">
-          <div class="nav-contact-item">
-            <img src="images/mail-line.svg" alt="Email icon" class="nav-contact-icon">
-            <div class="nav-contact-content">
-              <span class="nav-contact-label">Электронная почта</span>
-              <a href="mailto:info@thm.su" class="nav-contact-content-item">info@thm.su</a>
-            </div>
+      <ul class="menu__list" id="menu__list">
+        <li class="menu__item menu__item-email">
+          <img src="images/mail-line.svg" alt="Email icon" class="menu__item--contact-icon">
+          <div class="menu__item--contact-content">
+            <span class="menu__item--contact-label">Электронная почта</span>
+            <a href="mailto:info@thm.su" class="menu__item--contact-content-item">info@thm.su</a>
           </div>
-          <div class="nav-contact-item">
-            <img src="images/phone-line.svg" alt="Phone icon" class="nav-contact-icon">
-            <div class="nav-contact-content">
-              <span class="nav-contact-label">Номер телефона</span>
-              <a href="tel:+79041528008" class="nav-contact-content-item">+7 904 152 80 08</a>
-            </div>
+        </li>
+
+        <li class="menu__item">
+          <img src="images/phone-line.svg" alt="Phone icon" class="menu__item--contact-icon">
+          <div class="menu__item--contact-content">
+            <span class="menu__item--contact-label">Номер телефона</span>
+            <a href="tel:+79041528008" class="menu__item--contact-content-item">+7 904 152 80 08</a>
           </div>
+        </li>
+
+        <li class="menu__item">
+          <a href="http://course.thm.su" target="_blank">
+            <button class="menu__item--button">Начать бесплатно</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+    
+  <div class="container section1">
+
+    <!-- <div class="bg2"></div>
+    
+    <div class="elipse8 left8"></div>
+    <div class="elipse7 left7"></div>
+    <div class="elipse6 left6"></div>
+    <div class="elipse5 left5"></div>
+
+    <div class="elipse8 right8"></div>
+    <div class="elipse7 right7"></div>
+    <div class="elipse6 right6"></div>
+    <div class="elipse5 right5"></div>
+
+    <div class="rectangle55"></div>
+    <div class="rectangle56"></div>
+
+    <div class="mask-group">
+      <div class="mask-rectangle56"></div>
+    </div>
+    
+    <div class="rectangle52"></div>
+    <div class="rectangle60"></div> -->
+
+    <div class="s1-body">
+      <div class="s1-content-cnt">
+        <div class="s1-label-container">
+          <div class="s1-label-ellipse"></div>
+          <span class="s1-label">Практический онлайн-курс</span>
         </div>
-        
-        <a href="http://course.thm.su" target="_blank">
-          <button class="nav-button">Начать бесплатно</button>
+        <h1 class="s1-title">
+          <div><strong>Специалист в составлении</strong></div>
+          <span>должностных папок</span>
+        </h1>
+        <div class="s1-description">
+          <div class="s1-description-rect"></div>
+          <div class="s1-description-label">Мы научим вас не тратить много времени на ввод новых сотрудников в должность</div>
+        </div>
+
+        <a href="https://youtu.be/H5zaNVySMWU" target="_blank" rel="noopener noreferrer">
+          <img src="images/ybtn.png" alt="Кнопка посмотреть видео" class="s1-youtube-btn">
         </a>
       </div>
-      <!-- /.nav-bar -->
-
-      <div class="header-body">
-        <div class="header-content-cnt">
-          <div class="header-label-container">
-            <div class="header-label-ellipse"></div>
-            <span class="header-label">Практический онлайн-курс</span>
-          </div>
-          <h1 class="header-title">
-            <div><strong>Специалист в составлении</strong></div>
-            <span>должностных папок</span>
-          </h1>
-          <div class="header-description">
-            <div class="header-description-rect"></div>
-            <div class="header-description-label">Мы научим вас не тратить много времени на ввод новых сотрудников в должность</div>
-          </div>
-
-          <a href="https://youtu.be/H5zaNVySMWU" target="_blank" rel="noopener noreferrer">
-            <img src="images/ybtn.png" alt="Кнопка посмотреть видео" class="header-youtube-btn">
-          </a>
-        </div>
-        <!-- /.header-content-cnt -->
-        
-        <div class="header-img-cnt">
-          <img src="images/image27.png" alt="Специалист с папкой" class="header-image">
-        </div>
-        <!-- /.header-img-cnt -->
+      <!-- /.s1-content-cnt -->
+      
+      <div class="s1-img-cnt">
+        <img src="images/image27.png" alt="Специалист с папкой" class="s1-image">
       </div>
-      <!-- /.header-body -->
-
+      <!-- /.s1-img-cnt -->
     </div>
-    <!-- /.container -->
+    <!-- /.s1-body -->
+
 
     <div class="tape">
       <div class="tape-rect">
@@ -141,7 +137,7 @@
       </div>
     </div>
     <!-- /.tape -->
-  </header>
+  </div>
 
 
   <div class="container section2">
@@ -857,5 +853,10 @@
 </html>
 
 <!-- 
-  git add . && git commit -m "fix slogans" && git push origin master
+  git add . && git commit -m "adaptive header" && git push origin master
+ -->
+<!-- 
+  npm install postcss-cli postcss-import postcss-media-minmax postcss-csso
+
+  npx postcss css/index.css --use postcss-import --use postcss-media-minmax --use postcss-csso --no-map --output css/index.min.css
  -->
