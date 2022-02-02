@@ -1,0 +1,99 @@
+.title-cnt {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.title-substrate {
+  font-family: "Gilroy-Bold";
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 130%;
+  color: #f7f7f7;
+}
+
+.title-text {
+  position: absolute;
+  top: 72px;
+  font-family: "Gilroy-Light";
+  font-size: 36px;
+  line-height: 130%;
+  color: #272727;
+  text-align: center;
+}
+
+.title-text > .bold {
+  font-family: "Gilroy-Medium";
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+  .title-substrate {
+    font-size: 100px;
+  }
+  .title-text {
+    top: 67px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .title-substrate {
+    font-size: 80px;
+  }
+  .title-text {
+    top: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title-substrate {
+    font-size: 70px;
+  }
+  .title-text {
+    font-size: 30px;
+    top: 43px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .title-substrate {
+    font-size: 65px;
+  }
+  .title-text {
+    font-size: 28px;
+    line-height: 115%;
+    top: 43px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title-substrate {
+    font-size: 60px;
+  }
+  .title-text {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .title-substrate {
+    font-size: 55px;
+  }
+  .title-text {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .title-substrate {
+    font-size: 50px;
+  }
+  .title-text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-substrate {
+    font-size: 40px;
+  }
+  .title-text {
+    font-size: 20px;
+    line-height: 115%;
+    top: 43px;
+  }
+}
