@@ -9,6 +9,7 @@
   font-weight: bold;
   font-size: 110px;
   line-height: 130%;
+  text-align: center;
   color: #f7f7f7;
 }
 
@@ -76,6 +77,14 @@
   }
   .title-text {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title-substrate {
+    font-size: 53px;
+  }
+  .title-text {
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 550px) {
