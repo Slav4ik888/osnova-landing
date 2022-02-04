@@ -38,7 +38,7 @@
 .s11-lister-right {
   position: absolute;
   top: calc(50% - 56px);
-  left: calc(50% + (515px / 2) + 64px - 26px);
+  right: calc(50% - (515px / 2) - 64px - 26px);
 }
 
 /* ROW */
@@ -145,4 +145,22 @@
 }
 .s11-author-link:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .s11-lister-left {
+    position: absolute;
+    top: calc(50% - 56px);
+    left: 10px;
+  }
+  .s11-lister-right {
+    position: absolute;
+    top: calc(50% - 56px);
+    right: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section11 {
+    display: none;
+  }
 }
