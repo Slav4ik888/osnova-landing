@@ -35,9 +35,6 @@
   margin-right: 10px;
 }
 
-.s1-label {
-}
-
 .s1-title {
   font-family: "Gilroy-Light";
   margin-top: 20px;
@@ -53,7 +50,7 @@
 .s1-description {
   display: flex;
   margin-top: 30px;
-  width: 480px;
+  width: calc(100% - 8px);
 }
 
 .s1-description-rect {
@@ -112,6 +109,7 @@
 }
 
 .tape-content {
+  font-size: inherit;
 }
 
 .tape-content-item {
@@ -264,8 +262,225 @@
     font-size: 20px;
   }
 }
+@media screen and (max-width: 800px) {
+  .s1-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .s1-label {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section1 {
+    height: 445px;
+  }
+  .s1-content-cnt {
+    padding-top: 40px;
+  }
+  .s1-title {
+    margin-top: 18px;
+    font-size: 27px;
+    line-height: 37px;
+  }
+  .s1-description {
+    margin-top: 20px;
+  }
+  .s1-description-label {
+    font-size: 14px;
+    width: calc(100% - 20px);
+  }
+  .s1-youtube-btn {
+    margin-top: 21px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .section1 {
+    height: 380px;
+  }
+  .s1-content-cnt {
+    padding-top: 30px;
+  }
+  .s1-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .s1-description {
+    margin-top: 10px;
+  }
+  .s1-description-label {
+    font-size: 12px;
+    width: calc(100% - 40px);
+    line-height: 20px;
+  }
+  .tape {
+    width: 300%;
+  }
+  .tape-rect {
+    height: 50px;
+  }
+  .tape-content-label {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .section1 {
+    height: 345px;
+  }
+  .s1-content-cnt {
+    padding-top: 20px;
+  }
+  .s1-title {
+    margin-top: 8px;
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .s1-description {
+    margin-top: 10px;
+  }
+  .s1-description-label {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .section1 {
+    height: 280px;
+  }
+  .s1-content-cnt {
+    padding-top: 10px;
+  }
+  .s1-title {
+    margin-top: 8px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .s1-description {
+    margin-top: 5px;
+  }
+  .s1-description-label {
+    font-size: 9px;
+    line-height: 14px;
+  }
+  .s1-youtube-btn {
+    margin-top: 18px;
+    width: 150px;
+  }
+  .tape {
+    width: 300%;
+  }
+  .tape-rect {
+    height: 40px;
+  }
+  .tape-content-label {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .section1 {
+    height: 250px;
+  }
+  .s1-content-cnt {
+    padding-top: 0;
+  }
+  .s1-label-container {
+    height: 21px;
+  }
+  .s1-label-ellipse {
+    width: 4px;
+    height: 4px;
+    margin-top: 3px;
+    margin-right: 8px;
+  }
+  .s1-label {
+    font-size: 10px;
+  }
+  .s1-title {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .s1-youtube-btn {
+    margin-top: 14px;
+    width: 130px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .section1 {
+    height: 270px;
+  }
+  .s1-content-cnt {
+    width: 60%;
+  }
+  .s1-img-cnt {
+    width: 40%;
+  }
+  .s1-image {
+    width: 120%;
+  }
+  .s1-description {
+    margin-right: 0;
+    width: 100%;
+  }
+  .s1-description-label {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .section1 {
+    height: 250px;
+  }
+  .s1-content-cnt {
+    width: 60%;
+  }
+  .s1-img-cnt {
+    width: 40%;
+  }
+  .s1-image {
+    width: 120%;
+  }
+  .s1-title {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .s1-description {
+    margin-right: 0;
+    width: 100%;
+  }
+  .s1-description-label {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .s1-youtube-btn {
+    margin-top: 12px;
+    width: 120px;
+  }
+}
 @media screen and (max-width: 320px) {
   .section1 {
     padding: 0 10px;
+  }
+  .s1-content-cnt {
+    width: 100%;
+  }
+  .s1-title {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .s1-description-label {
+    font-size: 10px;
+    line-height: 13px;
+    width: 100%;
+    max-width: 300px;
+  }
+  .tape {
+    bottom: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .s1-img-cnt {
+    display: none;
   }
 }

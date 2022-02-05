@@ -77,6 +77,7 @@
   width: 50%;
 }
 .s6-right-box {
+  font-size: inherit;
 }
 .s6-right-img {
   position: absolute;

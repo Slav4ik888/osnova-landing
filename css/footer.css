@@ -54,6 +54,7 @@
 /* INFO-BLOCK */
 
 .footer-top > .info-block {
+  font-size: inherit;
 }
 .info-block > .box {
   display: flex;

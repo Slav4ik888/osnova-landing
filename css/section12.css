@@ -84,6 +84,7 @@
   height: 100%;
 }
 .s12-right-box {
+  font-size: inherit;
 }
 .s12-img-phone {
   position: absolute;
