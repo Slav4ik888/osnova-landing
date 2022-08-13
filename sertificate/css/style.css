@@ -27,6 +27,7 @@
   box-sizing: border-box;
 }
 
+
 .container {
   position: relative;
   display: flex;
@@ -36,6 +37,7 @@
   background: #ffffff;
   background-image: url("../images/vector.png");
   overflow: hidden;
+  margin: 5px auto;
 }
 
 .union-left {

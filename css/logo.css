@@ -16,21 +16,19 @@
   margin-top: 15px;
 }
 
+/* Tagline */
 .logo__tagline {
-  margin-left: 50px;
+  align-self: center;
   width: 181px;
   font-family: "Gilroy-Regular";
   font-size: 16px;
   color: #6e6e6e;
-  margin-top: 4px;
-}
-
-/* Tagline */
-
-.logo__tagline {
-  align-self: center;
   margin: 0;
+  margin-top: 4px;
+  margin-left: 20px;
 }
+
+
 
 @media screen and (max-width: 1050px) {
   .logo__tagline {
