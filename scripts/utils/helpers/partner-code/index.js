@@ -29,8 +29,7 @@ const setPartnerCodeToHrefs = () => {
   const allA = document.querySelectorAll('a');
   allA.forEach(it => {
     if (it.hostname === 'course.thm.su') {
-      it.href += `/ref?p=${partnerCode}`;
-      console.log(it.href);
+      it.href = `http://course.thm.su/ref?p=${partnerCode}`;
     }
   });
 }
