@@ -14,7 +14,6 @@ import { setPartnerCodeLS } from '../local-storage/index.js';
 
 /**
  * Во все ссылки на сайте добавить код партнёра (если есть)
- * И сохранить код партнёра в LS
  */
 const setPartnerCodeToHrefs = () => {
   const partnerCode = getPartnerCode();
@@ -22,9 +21,6 @@ const setPartnerCodeToHrefs = () => {
   // Если адресная строка содержит код партнёра
   if (! partnerCode) return
   
-  // Сохранить в LS
-  setPartnerCodeLS(partnerCode);
-
   // Во все ссылки на курс, добавить его
   const allA = document.querySelectorAll('a');
   allA.forEach(it => {
