@@ -4,3 +4,4 @@ import './slides/index.js';
 import './questions/index.js';
 import './header/index.js';
 import './footer/index.js';
+import './utils/helpers/partner-code/index.js';
