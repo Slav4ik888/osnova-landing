@@ -1,9 +1,9 @@
 /**
+ * v.2023-09-09
  * Возвращает код партнёра из адресной строки
  */
-export const getPartnerCode = () => {
+export const getPartnerCode = (search) => {
   const
-    search = window.location.search,
     split = search?.split('=') || [],
     isPartnerCode = split[0]?.slice(1) === 'p',
     partnerCode = isPartnerCode

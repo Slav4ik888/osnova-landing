@@ -16,7 +16,9 @@ import { setPartnerCodeLS } from '../local-storage/index.js';
  * Во все ссылки на сайте добавить код партнёра (если есть)
  */
 const setPartnerCodeToHrefs = () => {
-  const partnerCode = getPartnerCode();
+  const
+    search = window.location.search,
+    partnerCode = getPartnerCode(search);
 
   // Если адресная строка содержит код партнёра
   if (! partnerCode) return
